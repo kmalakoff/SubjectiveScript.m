@@ -12,7 +12,7 @@
 
 @implementation SubjectiveScriptTests
 
-- (void)testChain
+- (void)testArray
 {
   A* people = AO(OKV({@"name", @"curly"}, {@"age", N.I(50)}), OKV({@"name", @"moe"}, {@"age", N.I(30)}));
   equalI(people.count, 2, @"right number of people");
