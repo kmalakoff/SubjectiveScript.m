@@ -28,6 +28,10 @@
 //
 
 #import "NSMutableDictionary+JavaScript.h"
+#import "NSString+SS.h"
+#import <objc/runtime.h>
+
+static const char* SSNamedPropertiesKey = "SSNP";
 
 @implementation NSMutableDictionary (JavaScript)
 
@@ -37,6 +41,60 @@
     [self removeObjectForKey:key];
     return self;
   };
+}
+
+// dynamic property lookup
++ (BOOL)resolveInstanceMethod:(SEL)selector
+{
+  NSS* name = [NSS stringWithUTF8String:sel_getName(selector)];
+  BOOL isSetter = name.startsWith(@"set");
+  
+  // setter
+  if (isSetter)
+  {
+    unichar firstLetter = [name characterAtIndex:3];
+    name = [NSS stringWithFormat:@"%@%@",[[NSS stringWithCharacters:&firstLetter length:1] lowercaseString], [name substringWithRange:NSMakeRange(4, name.length-5)]];
+  }
+
+  objc_property_t propertyInfo = class_getProperty(self.class, name.UTF8String);
+  if (!propertyInfo) return [super resolveInstanceMethod:selector]; // not a property
+
+  // signature checker for getters and setters
+  NSRange colonsRange = [name rangeOfString:@":"];
+  if (
+    name.startsWith(@"_") || // internal
+    (isSetter && name.endsWith(@":") && (colonsRange.location!=name.length-1)) || // not quite a setter
+    (!isSetter && (colonsRange.length!=0)) // not a getter
+  ) {
+    return [super resolveInstanceMethod:selector];
+  }
+
+  // find the class that declared the property
+  Class owningClass = self.class;
+  Class superClass = class_getSuperclass(owningClass);
+  while(superClass && class_getProperty(superClass, name.UTF8String)==propertyInfo) {
+    owningClass = superClass; superClass = class_getSuperclass(owningClass);
+  }
+
+  O* dynamicProperties = objc_getAssociatedObject(self, SSNamedPropertiesKey);
+  if (!dynamicProperties) {
+    dynamicProperties = O.new;
+    objc_setAssociatedObject(self, SSNamedPropertiesKey, dynamicProperties, OBJC_ASSOCIATION_RETAIN);
+  }
+
+  // collection information about the property
+  IMP implementation;
+  if (isSetter)
+    implementation = imp_implementationWithBlock((void*)CFBridgingRetain(^(O* obj, id value) {
+      [dynamicProperties setValue:value forKey:name];
+    }));
+  else
+    implementation = imp_implementationWithBlock((void*)CFBridgingRetain(^(O* obj) {
+      return [dynamicProperties valueForKey:name];
+    }));
+
+  class_addMethod(owningClass, selector, implementation, property_getAttributes(propertyInfo));
+  return YES;
 }
 
 @end
