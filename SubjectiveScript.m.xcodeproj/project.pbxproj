@@ -12,9 +12,9 @@
 		0A15526F15C54CD1006B9219 /* SS+System.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A15526D15C54CD1006B9219 /* SS+System.h */; };
 		0A15527015C54CD1006B9219 /* SS+System.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A15526E15C54CD1006B9219 /* SS+System.m */; };
 		0A15527115C54CD1006B9219 /* SS+System.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A15526E15C54CD1006B9219 /* SS+System.m */; };
-		0A2B796F15C674690020D370 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2B796D15C674690020D370 /* ISO8601DateFormatter.h */; };
-		0A2B797015C674690020D370 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B796E15C674690020D370 /* ISO8601DateFormatter.m */; };
-		0A2B797115C674690020D370 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B796E15C674690020D370 /* ISO8601DateFormatter.m */; };
+		0A2E4F4315C779EF0098C7E1 /* NSDictionary+NamedProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2E4F4115C779EF0098C7E1 /* NSDictionary+NamedProperties.h */; };
+		0A2E4F4415C779EF0098C7E1 /* NSDictionary+NamedProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E4F4215C779EF0098C7E1 /* NSDictionary+NamedProperties.m */; };
+		0A2E4F4515C779EF0098C7E1 /* NSDictionary+NamedProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E4F4215C779EF0098C7E1 /* NSDictionary+NamedProperties.m */; };
 		0AC6D60B15C618F6004C3000 /* SS+JavaScriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6D60A15C618F6004C3000 /* SS+JavaScriptTests.m */; };
 		0AC6D60E15C6190E004C3000 /* NSObject+JavaScriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6D60D15C6190E004C3000 /* NSObject+JavaScriptTests.m */; };
 		0AC6D61115C6192B004C3000 /* Array+JavaScriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6D61015C6192B004C3000 /* Array+JavaScriptTests.m */; };
@@ -128,8 +128,8 @@
 		0A02E1B015C69E70006BD268 /* QUWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUWrap.m; sourceTree = "<group>"; };
 		0A15526D15C54CD1006B9219 /* SS+System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SS+System.h"; sourceTree = "<group>"; };
 		0A15526E15C54CD1006B9219 /* SS+System.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SS+System.m"; sourceTree = "<group>"; };
-		0A2B796D15C674690020D370 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
-		0A2B796E15C674690020D370 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		0A2E4F4115C779EF0098C7E1 /* NSDictionary+NamedProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NamedProperties.h"; sourceTree = "<group>"; };
+		0A2E4F4215C779EF0098C7E1 /* NSDictionary+NamedProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NamedProperties.m"; sourceTree = "<group>"; };
 		0AC6D60915C618F6004C3000 /* SS+JavaScriptTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SS+JavaScriptTests.h"; sourceTree = "<group>"; };
 		0AC6D60A15C618F6004C3000 /* SS+JavaScriptTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SS+JavaScriptTests.m"; sourceTree = "<group>"; };
 		0AC6D60C15C6190E004C3000 /* NSObject+JavaScriptTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JavaScriptTests.h"; sourceTree = "<group>"; };
@@ -243,24 +243,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A2B796615C6741A0020D370 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				0A2B796C15C674690020D370 /* ISO8601Parser */,
-			);
-			name = Vendor;
-			path = SubjectiveScript/Vendor;
-			sourceTree = SOURCE_ROOT;
-		};
-		0A2B796C15C674690020D370 /* ISO8601Parser */ = {
-			isa = PBXGroup;
-			children = (
-				0A2B796D15C674690020D370 /* ISO8601DateFormatter.h */,
-				0A2B796E15C674690020D370 /* ISO8601DateFormatter.m */,
-			);
-			path = ISO8601Parser;
-			sourceTree = "<group>";
-		};
 		0AC6D60215C618A5004C3000 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,24 +325,24 @@
 				0AF192F715C5346B00937CC7 /* SSTypes.h */,
 				0AF192DF15C5346B00937CC7 /* SS+Types.h */,
 				0AF192E015C5346B00937CC7 /* SS+Types.m */,
-				0AF192E515C5346B00937CC7 /* NSArray+SS.h */,
-				0AF192E615C5346B00937CC7 /* NSArray+SS.m */,
+				0AF192F315C5346B00937CC7 /* NSObject+SS.h */,
+				0AF192F415C5346B00937CC7 /* NSObject+SS.m */,
 				0AF192E715C5346B00937CC7 /* NSDate+SS.h */,
 				0AF192E815C5346B00937CC7 /* NSDate+SS.m */,
-				0AF192E915C5346B00937CC7 /* NSDictionary+SS.h */,
-				0AF192EA15C5346B00937CC7 /* NSDictionary+SS.m */,
+				0AF192E515C5346B00937CC7 /* NSArray+SS.h */,
+				0AF192E615C5346B00937CC7 /* NSArray+SS.m */,
 				0AF192EB15C5346B00937CC7 /* NSMutableArray+SS.h */,
 				0AF192EC15C5346B00937CC7 /* NSMutableArray+SS.m */,
+				0AF192E915C5346B00937CC7 /* NSDictionary+SS.h */,
+				0AF192EA15C5346B00937CC7 /* NSDictionary+SS.m */,
 				0AF192ED15C5346B00937CC7 /* NSMutableDictionary+SS.h */,
 				0AF192EE15C5346B00937CC7 /* NSMutableDictionary+SS.m */,
+				0AF192F515C5346B00937CC7 /* NSString+SS.h */,
+				0AF192F615C5346B00937CC7 /* NSString+SS.m */,
 				0AF192EF15C5346B00937CC7 /* NSMutableString+SS.h */,
 				0AF192F015C5346B00937CC7 /* NSMutableString+SS.m */,
 				0AF192F115C5346B00937CC7 /* NSNumber+SS.h */,
 				0AF192F215C5346B00937CC7 /* NSNumber+SS.m */,
-				0AF192F315C5346B00937CC7 /* NSObject+SS.h */,
-				0AF192F415C5346B00937CC7 /* NSObject+SS.m */,
-				0AF192F515C5346B00937CC7 /* NSString+SS.h */,
-				0AF192F615C5346B00937CC7 /* NSString+SS.m */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -436,10 +418,11 @@
 				0AF192FA15C5346B00937CC7 /* SS.m */,
 				0AFE255815B59CD1008A8BA9 /* SubjectiveScript.h */,
 				0AFE255915B59CD1008A8BA9 /* SubjectiveScript.m */,
+				0A2E4F4115C779EF0098C7E1 /* NSDictionary+NamedProperties.h */,
+				0A2E4F4215C779EF0098C7E1 /* NSDictionary+NamedProperties.m */,
 				0AF1938715C5454800937CC7 /* Helpers */,
 				0AF192DC15C5346B00937CC7 /* JavaScript */,
 				0AF192E415C5346B00937CC7 /* Types */,
-				0A2B796615C6741A0020D370 /* Vendor */,
 				0AFE255615B59CD1008A8BA9 /* Supporting Files */,
 			);
 			path = SubjectiveScript;
@@ -509,7 +492,7 @@
 				0AF1939015C5454900937CC7 /* SS+Functions.h in Headers */,
 				0AF1939315C5454900937CC7 /* SSArguments.h in Headers */,
 				0A15526F15C54CD1006B9219 /* SS+System.h in Headers */,
-				0A2B796F15C674690020D370 /* ISO8601DateFormatter.h in Headers */,
+				0A2E4F4315C779EF0098C7E1 /* NSDictionary+NamedProperties.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,7 +620,7 @@
 				0AF1938E15C5454900937CC7 /* NSString+Versioning.m in Sources */,
 				0AF1939115C5454900937CC7 /* SS+Functions.m in Sources */,
 				0A15527015C54CD1006B9219 /* SS+System.m in Sources */,
-				0A2B797015C674690020D370 /* ISO8601DateFormatter.m in Sources */,
+				0A2E4F4415C779EF0098C7E1 /* NSDictionary+NamedProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,9 +667,9 @@
 				0AC6D62C15C61A77004C3000 /* Number+SSTests.m in Sources */,
 				0AC6D62F15C61A86004C3000 /* String+SSTests.m in Sources */,
 				0AC6D63215C61D72004C3000 /* Functions+JavaScriptTests.m in Sources */,
-				0A2B797115C674690020D370 /* ISO8601DateFormatter.m in Sources */,
 				0A02E1B115C69E70006BD268 /* QUnitTests.m in Sources */,
 				0A02E1B215C69E70006BD268 /* QUWrap.m in Sources */,
+				0A2E4F4515C779EF0098C7E1 /* NSDictionary+NamedProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

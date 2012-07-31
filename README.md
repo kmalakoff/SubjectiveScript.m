@@ -274,11 +274,28 @@ You can also easily add named properties on your own objects:
 @end
 @implementation MyObject : O
   @dynamic name;
+  IMPLEMENT_NAMED_PROPERTIES
 @end
 
 MyObject* obj = MyObject.new;
 obj.name = @"Steve";
 // they call me Steve
+```
+
+So you can write the initial example like:
+```
+@interface Stooge : O
+  @property (strong) NSS* name;
+  @property (strong) N* age;
+@end
+@implementation Stooge
+  @dynamic name, age;
+  IMPLEMENT_NAMED_PROPERTIES
+@end
+
+A* people = AO(OTKV(Stooge, {@"name", @"curly"}, {@"age", N.I(50)}), OTKV(Stooge, {@"name", @"moe"}, {@"age", N.I(30)}));
+people = _.sortBy(people, ^(Stooge* person){ return person.age; }); // no get(@"age") required
+equal(_.pluck(people, @"name").join(@", "), @"moe, curly", @"stooges sorted by age");
 ```
 
 
