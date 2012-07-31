@@ -263,6 +263,24 @@ SS.setTimeout(^{ called2 = true; }, NSEC_PER_SEC*2);
 // called
 ```
 
+Just One More Thing
+---------------
+
+You can also easily add named properties on your own objects:
+
+```
+@interface MyObject : O
+  @property (strong) NSS* name;
+@end
+@implementation MyObject : O
+  @dynamic name;
+@end
+
+MyObject* obj = MyObject.new;
+obj.name = @"Steve";
+// they call me Steve
+```
+
 
 Want to Add Something?
 ---------------
