@@ -5,6 +5,8 @@ SubjectiveScript.m
 ````
 Subjective-Script makes Objective-C more scripty!
 
+**Note:** Subjective-Script requires ARC to be enabled on your Objective-C project.
+
 The Idea
 ========
 
