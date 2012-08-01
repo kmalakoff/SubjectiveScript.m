@@ -252,7 +252,6 @@
 				0A2A8B8115C7D572002A71DE /* JavaScript */,
 				0A2A8B9815C7D572002A71DE /* NSDictionary+NamedProperties.h */,
 				0A2A8B9915C7D572002A71DE /* NSDictionary+NamedProperties.m */,
-				0A2A8B9A15C7D572002A71DE /* Ruby */,
 				0A2A8B9B15C7D573002A71DE /* SS.h */,
 				0A2A8B9C15C7D573002A71DE /* SS.m */,
 				0A2A8B9D15C7D573002A71DE /* SubjectiveScript.h */,
@@ -303,13 +302,6 @@
 				0A2A8B9715C7D572002A71DE /* SS+Types.m */,
 			);
 			path = JavaScript;
-			sourceTree = "<group>";
-		};
-		0A2A8B9A15C7D572002A71DE /* Ruby */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Ruby;
 			sourceTree = "<group>";
 		};
 		0A2A8B9F15C7D573002A71DE /* Types */ = {
