@@ -12,6 +12,11 @@
 
 @implementation SubjectiveScriptTests
 
+- (void)test_version
+{
+  ok(SS.VERSION.VersionGreaterThanOrEqualTo(@"0.1.0"), @"expected version");
+}
+
 - (void)testArray
 {
   A* people = AO(OKV({@"name", @"curly"}, {@"age", N.I(50)}), OKV({@"name", @"moe"}, {@"age", N.I(30)}));

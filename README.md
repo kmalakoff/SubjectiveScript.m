@@ -197,6 +197,10 @@ OKV({@"int", N.I(1)}, {@"float", N.F(2.0)}).delete_(@"int").hasOwnProperty(@"int
 // true
 ```
 
+```
+delete obj.key or delete obj['key'] -> obj.delete_(@"key") -> what is the delete resevered word for..can it be used?
+```
+
 Strings
 --------
 
@@ -300,8 +304,7 @@ people = _.sortBy(people, ^(Stooge* person){ return person.age; }); // no get(@"
 equal(_.pluck(people, @"name").join(@", "), @"moe, curly", @"stooges sorted by age");
 ```
 
-
-Want to Add Something?
+Please Contribute to SubjectiveScript.m
 ---------------
 
 Currently, this is still early days and there is a lot to add and test. Please help out!
