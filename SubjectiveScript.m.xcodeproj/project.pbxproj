@@ -184,6 +184,8 @@
 		0A73EB8A15CA2841001E299B /* QUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUnitTests.m; sourceTree = "<group>"; };
 		0A73EB8B15CA2841001E299B /* QUWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QUWrap.h; sourceTree = "<group>"; };
 		0A73EB8C15CA2841001E299B /* QUWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QUWrap.m; sourceTree = "<group>"; };
+		0A7EF1FE15CA2C9100693F87 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0A7EF1FF15CA2C9100693F87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		0AC6D60915C618F6004C3000 /* SS+JavaScriptTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SS+JavaScriptTests.h"; sourceTree = "<group>"; };
 		0AC6D60A15C618F6004C3000 /* SS+JavaScriptTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SS+JavaScriptTests.m"; sourceTree = "<group>"; };
 		0AC6D60C15C6190E004C3000 /* NSObject+JavaScriptTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JavaScriptTests.h"; sourceTree = "<group>"; };
@@ -406,6 +408,8 @@
 		0AFE254515B59CD1008A8BA9 = {
 			isa = PBXGroup;
 			children = (
+				0A7EF1FF15CA2C9100693F87 /* README.md */,
+				0A7EF1FE15CA2C9100693F87 /* LICENSE */,
 				0A2A8B7815C7D572002A71DE /* Lib */,
 				0AFE255515B59CD1008A8BA9 /* SubjectiveScript */,
 				0AFE256915B59CD1008A8BA9 /* SubjectiveScriptTests */,
