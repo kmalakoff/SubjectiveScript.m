@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A20BE3115CBC9C60041069F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A20BE3015CBC9C60041069F /* libPods.a */; };
 		0A23CB5415CBBE540015105E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE255315B59CD1008A8BA9 /* Foundation.framework */; };
 		0A23CB6215CBBE550015105E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE256115B59CD1008A8BA9 /* SenTestingKit.framework */; };
 		0A23CB6315CBBE550015105E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1A2AED15CB7A4A0052BCC9 /* UIKit.framework */; };
 		0A23CB6415CBBE550015105E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE255315B59CD1008A8BA9 /* Foundation.framework */; };
-		0A23CB7715CBBE9E0015105E /* libQUnit.m_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A14EEC715CB9DF20098AC02 /* libQUnit.m_iOS.a */; };
 		0A23CB7815CBBEA60015105E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1A2AED15CB7A4A0052BCC9 /* UIKit.framework */; };
 		0A23CBB315CBBECC0015105E /* NSString+Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A23CB7B15CBBECC0015105E /* NSString+Versioning.h */; };
 		0A23CBB415CBBECC0015105E /* NSString+Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A23CB7C15CBBECC0015105E /* NSString+Versioning.m */; };
@@ -182,7 +182,7 @@
 		0AA5708715CB7EB800F54B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA5708215CB7EB800F54B36 /* InfoPlist.strings */; };
 		0AA5719215CB80E900F54B36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1A2AF015CB7A580052BCC9 /* Cocoa.framework */; };
 		0AA5719315CB80F100F54B36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1A2AF015CB7A580052BCC9 /* Cocoa.framework */; };
-		0AA5725C15CB90AD00F54B36 /* libQUnit.m_OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA5725B15CB90AD00F54B36 /* libQUnit.m_OSX.a */; };
+		40C52EBBCEC04F3F9D48410A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA53EF3384D142819093EF73 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,6 +221,7 @@
 		0A1A2ABD15CB79990052BCC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0A1A2AED15CB7A4A0052BCC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0A1A2AF015CB7A580052BCC9 /* Cocoa.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		0A20BE3015CBC9C60041069F /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = Pods/build/Debug/libPods.a; sourceTree = "<group>"; };
 		0A23CB5315CBBE540015105E /* libSubjectiveScript.m_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSubjectiveScript.m_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A23CB6115CBBE550015105E /* SubjectiveScript.m_iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubjectiveScript.m_iOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A23CB7B15CBBECC0015105E /* NSString+Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Versioning.h"; sourceTree = "<group>"; };
@@ -324,6 +325,8 @@
 		0AFE255315B59CD1008A8BA9 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AFE256115B59CD1008A8BA9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		3F012C3EAC0F473FBAE27761 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		82F70F01A40E4D18BF02DB8E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		BA53EF3384D142819093EF73 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,7 +336,6 @@
 			files = (
 				0A23CB7815CBBEA60015105E /* UIKit.framework in Frameworks */,
 				0A23CB5415CBBE540015105E /* Foundation.framework in Frameworks */,
-				0A23CB7715CBBE9E0015105E /* libQUnit.m_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA5719315CB80F100F54B36 /* Cocoa.framework in Frameworks */,
+				40C52EBBCEC04F3F9D48410A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,9 +362,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A20BE3115CBC9C60041069F /* libPods.a in Frameworks */,
 				0AA5719215CB80E900F54B36 /* Cocoa.framework in Frameworks */,
 				0AA5703215CB7E4400F54B36 /* SenTestingKit.framework in Frameworks */,
-				0AA5725C15CB90AD00F54B36 /* libQUnit.m_OSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +599,7 @@
 		0AFE254515B59CD1008A8BA9 = {
 			isa = PBXGroup;
 			children = (
+				0A20BE3015CBC9C60041069F /* libPods.a */,
 				0A7EF1FF15CA2C9100693F87 /* README.md */,
 				0A7EF1FE15CA2C9100693F87 /* LICENSE */,
 				0A23CB7915CBBECC0015105E /* Lib */,
@@ -604,6 +608,7 @@
 				0AFE255215B59CD1008A8BA9 /* Frameworks */,
 				0AFE255115B59CD1008A8BA9 /* Products */,
 				3F012C3EAC0F473FBAE27761 /* Pods.xcconfig */,
+				82F70F01A40E4D18BF02DB8E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -628,6 +633,7 @@
 				0AFE255315B59CD1008A8BA9 /* Foundation.framework */,
 				0AFE256115B59CD1008A8BA9 /* SenTestingKit.framework */,
 				0A1A2ABA15CB79990052BCC9 /* Other Frameworks */,
+				BA53EF3384D142819093EF73 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -717,6 +723,7 @@
 				0AA5702115CB7E4400F54B36 /* Frameworks */,
 				0AA5702215CB7E4400F54B36 /* Headers */,
 				576938023E444F10B2D0434F /* Copy Pods Resources */,
+				3D0FF85DC1094517A4F9D8E7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -820,6 +827,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		3D0FF85DC1094517A4F9D8E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 		};
 		576938023E444F10B2D0434F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1130,6 +1151,7 @@
 		};
 		0AA5704115CB7E4400F54B36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F70F01A40E4D18BF02DB8E /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1161,6 +1183,7 @@
 		};
 		0AA5704215CB7E4400F54B36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F70F01A40E4D18BF02DB8E /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1306,6 +1329,7 @@
 				0A23CB7315CBBE550015105E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A23CB7415CBBE550015105E /* Build configuration list for PBXNativeTarget "SubjectiveScript.m_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1314,6 +1338,7 @@
 				0A23CB7615CBBE550015105E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA5704015CB7E4400F54B36 /* Build configuration list for PBXNativeTarget "SubjectiveScript.m_OSX" */ = {
 			isa = XCConfigurationList;
