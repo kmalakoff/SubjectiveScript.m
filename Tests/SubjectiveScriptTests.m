@@ -35,7 +35,7 @@
 
 - (void)test_version
 {
-  ok(SS.VERSION.VersionGreaterThanOrEqualTo(@"0.1.0"), @"expected version");
+  ok(SS.VERSION.VersionGreaterThanOrEqualTo(@"0.1.1"), @"expected version");
 }
 
 - (void)testArray
