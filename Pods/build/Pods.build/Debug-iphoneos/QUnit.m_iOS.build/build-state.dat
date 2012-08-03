@@ -1,0 +1,123 @@
+TQUnit.m_iOS
+v5
+r1
+cCheck dependencies
+cCompileC build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnitTests.o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnitTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUWrap.o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUWrap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos/libQUnit.m_iOS.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Library/Frameworks/SenTestingKit.framework/SenTestingKit
+c000000005010B3F80000000000030E60
+t1343271928
+s200288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000005010B4710000000000000110
+t1343272049
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FD9856B000000000052C940
+t1339655531
+s5425472
+
+N/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUWrap.m
+c00000000501B64510000000000000837
+t1343972433
+s2103
+
+N/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnit.m
+c00000000501B64510000000000000558
+t1343972433
+s1368
+
+N/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnitTests.m
+c00000000501B645100000000000016E7
+t1343972433
+s5863
+
+N/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos/libQUnit.m_iOS.a
+t2
+s0
+
+N/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUWrap.o
+t2
+s0
+
+N/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.m_iOS.LinkFileList
+c00000000501B662300000000000001DA
+t1343972899
+s474
+
+N/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.o
+t2
+s0
+
+N/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnitTests.o
+t2
+s0
+
+CBuild AST from /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUWrap.m
+r0
+
+CBuild AST from /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnit.m
+r0
+
+CBuild AST from /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnitTests.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb213e2c29dcbb541^21b1f1c29dcbb541^---0#1#0#--18"Check dependencies36"81D293E6-DA77-40E7-A6CE-11773A09C1D1-
+
+CCompileC build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUWrap.o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUWrap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365665731.560193
+e365665731.814680
+r1
+xCompileC
+xbuild/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUWrap.o
+x/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUWrap.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUWrap.ma3918fc39dcbb541^e0a1d0c39dcbb541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUWrap.m0000000000000000^3563"CompileC build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUWrap.o QUnit.m/Lib/QUWrap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-generated-files.hmap -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-own-target-headers.hmap -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-all-target-headers.hmap -iquote /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-project-headers.hmap -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/DerivedSources/armv7 -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/DerivedSources -F/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUWrap.d --serialize-diagnostics /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUWrap.dia -c /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUWrap.m -o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUWrap.o36"1229249D-6CF3-41C1-BF92-45590AD6A1F7-
+
+CCompileC build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365665730.946162
+e365665731.558870
+r1
+xCompileC
+xbuild/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.o
+x/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnit.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnit.mdd5ef2c29dcbb541^d7158fc39dcbb541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnit.m0000000000000000^3557"CompileC build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.o QUnit.m/Lib/QUnit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-generated-files.hmap -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-own-target-headers.hmap -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-all-target-headers.hmap -iquote /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-project-headers.hmap -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/DerivedSources/armv7 -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/DerivedSources -F/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.d --serialize-diagnostics /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.dia -c /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnit.m -o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.o36"A46E55FC-75C4-4DD8-9665-862EEBA68DB8-
+
+CCompileC build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnitTests.o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnitTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365665730.946339
+e365665731.661132
+r1
+xCompileC
+xbuild/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnitTests.o
+x/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnitTests.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnitTests.m7766f2c29dcbb541^185ea9c39dcbb541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnitTests.m0000000000000000^3587"CompileC build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnitTests.o QUnit.m/Lib/QUnitTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-generated-files.hmap -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-own-target-headers.hmap -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-all-target-headers.hmap -iquote /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/QUnit.m_iOS-project-headers.hmap -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/DerivedSources/armv7 -I/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/DerivedSources -F/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnitTests.d --serialize-diagnostics /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnitTests.dia -c /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/QUnit.m/Lib/QUnitTests.m -o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnitTests.o36"9CD2864E-1611-4453-8D0E-AF6F64E89F11-
+
+CLibtool /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos/libQUnit.m_iOS.a normal armv7
+s365665731.834126
+e365665731.842334
+r1
+xLibtool
+x/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos/libQUnit.m_iOS.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Libtool build/Debug-iphoneos/libQUnit.m_iOS.a normal armv7ffcfd5c39dcbb541^dba7d7c39dcbb541^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1065"Libtool build/Debug-iphoneos/libQUnit.m_iOS.a normal armv7    cd /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos -filelist /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Pods.build/Debug-iphoneos/QUnit.m_iOS.build/Objects-normal/armv7/QUnit.m_iOS.LinkFileList -ObjC -framework SenTestingKit -framework Foundation -o /Users/kevin/Dev/OpenSourceProjects/Mine/Objective-C/SubjectiveScript.m/Pods/build/Debug-iphoneos/libQUnit.m_iOS.a36"6C20AE2E-CA13-4014-8C50-7B573499DC5C-
+

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SubjectiveScript.m_iOS' target in the 'SubjectiveScript.m_iOS' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif
