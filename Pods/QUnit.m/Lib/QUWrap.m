@@ -50,6 +50,8 @@
     case _C_UINT:
     case _C_LNG:
     case _C_ULNG:
+    case _C_LNG_LNG:
+    case _C_ULNG_LNG:
       return [NSNumber numberWithInteger:(NSInteger)value];
     case _C_CHR:
     case _C_BOOL:

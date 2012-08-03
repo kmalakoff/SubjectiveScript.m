@@ -3,7 +3,7 @@
 profile
 
 # xcode noise
-build/*
+build/
 *.mode1
 *.mode1v3
 *.mode2v3
@@ -16,3 +16,8 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
+
+# cocoapods (keep libraries since the pod install doesn't configure what I need)
+Pods/build/*
+Pods/Headers/*
+Pods/Documentation/*
