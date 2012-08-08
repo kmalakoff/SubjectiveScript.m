@@ -126,6 +126,8 @@
 		0AA55EC615D2638C0069DD2E /* NSString+SS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA55E7715D2638C0069DD2E /* NSString+SS.m */; };
 		0AA55EC715D2638C0069DD2E /* NSString+SS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA55E7715D2638C0069DD2E /* NSString+SS.m */; };
 		0AA55EC815D2638C0069DD2E /* SSTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA55E7815D2638C0069DD2E /* SSTypes.h */; };
+		0F35F7C3F72944668D2792AA /* libPods-SubjectiveScript.m-iosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4717B354D0C4BE6B4851841 /* libPods-SubjectiveScript.m-iosTests.a */; };
+		A83A275BD2A14318BD42B152 /* libPods-SubjectiveScript.m-osxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1B64D0217843EC9BA11AB6 /* libPods-SubjectiveScript.m-osxTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,7 +164,7 @@
 		0A1A2ABB15CB79990052BCC9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0A1A2ABC15CB79990052BCC9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0A1A2ABD15CB79990052BCC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0A1A2AED15CB7A4A0052BCC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A1A2AED15CB7A4A0052BCC9 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0A1A2AF015CB7A580052BCC9 /* Cocoa.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		0A7EF1FE15CA2C9100693F87 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A7EF1FF15CA2C9100693F87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -262,8 +264,12 @@
 		0AA55E7815D2638C0069DD2E /* SSTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTypes.h; sourceTree = "<group>"; };
 		0AA5725B15CB90AD00F54B36 /* libQUnit.m_OSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQUnit.m_OSX.a; path = Pods/build/Debug/libQUnit.m_OSX.a; sourceTree = "<group>"; };
 		0AFE255315B59CD1008A8BA9 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0AFE256115B59CD1008A8BA9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0AFE256115B59CD1008A8BA9 /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		34263E84CDC14AA89D62033A /* Pods-SubjectiveScript.m-iosTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubjectiveScript.m-iosTests.xcconfig"; path = "Pods/Pods-SubjectiveScript.m-iosTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		6CDA3CFB7A484109BB5DECBF /* Pods-SubjectiveScript.m-osxTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubjectiveScript.m-osxTests.xcconfig"; path = "Pods/Pods-SubjectiveScript.m-osxTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		9C1B64D0217843EC9BA11AB6 /* libPods-SubjectiveScript.m-osxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SubjectiveScript.m-osxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA53EF3384D142819093EF73 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4717B354D0C4BE6B4851841 /* libPods-SubjectiveScript.m-iosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SubjectiveScript.m-iosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +289,7 @@
 				0AA55DB015D263400069DD2E /* UIKit.framework in Frameworks */,
 				0AA55DB115D263400069DD2E /* Foundation.framework in Frameworks */,
 				0AA55DB415D263400069DD2E /* libSubjectiveScript.m-ios.a in Frameworks */,
+				0F35F7C3F72944668D2792AA /* libPods-SubjectiveScript.m-iosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +308,7 @@
 				0AA55DD615D263550069DD2E /* SenTestingKit.framework in Frameworks */,
 				0AA55DD715D263550069DD2E /* Cocoa.framework in Frameworks */,
 				0AA55DDA15D263550069DD2E /* libSubjectiveScript.m-osx.a in Frameworks */,
+				A83A275BD2A14318BD42B152 /* libPods-SubjectiveScript.m-osxTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +526,8 @@
 				0AA55DEA15D263740069DD2E /* Config */,
 				0AFE255215B59CD1008A8BA9 /* Frameworks */,
 				0AFE255115B59CD1008A8BA9 /* Products */,
+				34263E84CDC14AA89D62033A /* Pods-SubjectiveScript.m-iosTests.xcconfig */,
+				6CDA3CFB7A484109BB5DECBF /* Pods-SubjectiveScript.m-osxTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -543,6 +553,8 @@
 				0AFE256115B59CD1008A8BA9 /* SenTestingKit.framework */,
 				0A1A2ABA15CB79990052BCC9 /* Other Frameworks */,
 				BA53EF3384D142819093EF73 /* libPods.a */,
+				F4717B354D0C4BE6B4851841 /* libPods-SubjectiveScript.m-iosTests.a */,
+				9C1B64D0217843EC9BA11AB6 /* libPods-SubjectiveScript.m-osxTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -613,6 +625,7 @@
 				0AA55DAA15D263400069DD2E /* Frameworks */,
 				0AA55DAB15D263400069DD2E /* Resources */,
 				0AA55DAC15D263400069DD2E /* ShellScript */,
+				85F342A6E4ED4CC8B3EEDE4C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -649,6 +662,7 @@
 				0AA55DD115D263550069DD2E /* Frameworks */,
 				0AA55DD215D263550069DD2E /* Resources */,
 				0AA55DD315D263550069DD2E /* ShellScript */,
+				0784281AC57C4D7EBA71E2D7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -708,6 +722,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0784281AC57C4D7EBA71E2D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SubjectiveScript.m-osxTests-resources.sh\"\n";
+		};
 		0AA55DAC15D263400069DD2E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -733,6 +761,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		85F342A6E4ED4CC8B3EEDE4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SubjectiveScript.m-iosTests-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -912,6 +954,7 @@
 		};
 		0AA55DC215D263400069DD2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34263E84CDC14AA89D62033A /* Pods-SubjectiveScript.m-iosTests.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -929,6 +972,7 @@
 		};
 		0AA55DC315D263400069DD2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34263E84CDC14AA89D62033A /* Pods-SubjectiveScript.m-iosTests.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -982,6 +1026,7 @@
 		};
 		0AA55DE815D263550069DD2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDA3CFB7A484109BB5DECBF /* Pods-SubjectiveScript.m-osxTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1004,6 +1049,7 @@
 		};
 		0AA55DE915D263550069DD2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDA3CFB7A484109BB5DECBF /* Pods-SubjectiveScript.m-osxTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1044,7 +1090,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
@@ -1062,7 +1108,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv6 armv7";
 			};
@@ -1078,6 +1124,7 @@
 				0AA55DC015D263400069DD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA55DC115D263400069DD2E /* Build configuration list for PBXNativeTarget "SubjectiveScript.m-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -1086,6 +1133,7 @@
 				0AA55DC315D263400069DD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA55DE415D263550069DD2E /* Build configuration list for PBXNativeTarget "SubjectiveScript.m-osx" */ = {
 			isa = XCConfigurationList;
@@ -1094,6 +1142,7 @@
 				0AA55DE615D263550069DD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA55DE715D263550069DD2E /* Build configuration list for PBXNativeTarget "SubjectiveScript.m-osxTests" */ = {
 			isa = XCConfigurationList;
@@ -1102,6 +1151,7 @@
 				0AA55DE915D263550069DD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AFE254A15B59CD1008A8BA9 /* Build configuration list for PBXProject "SubjectiveScript.m" */ = {
 			isa = XCConfigurationList;
