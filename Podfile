@@ -1,5 +1,9 @@
-platform :ios
-pod 'QUnit.m',                  '~> 0.1.1'
+target 'SubjectiveScript.m-iosTests' do
+  platform :ios, "4.0"
+  pod 'QUnit.m'
+end
 
-platform :osx
-pod 'QUnit.m',                  '~> 0.1.1'
+target 'SubjectiveScript.m-osxTests' do
+  platform :osx
+  pod 'QUnit.m'
+end
