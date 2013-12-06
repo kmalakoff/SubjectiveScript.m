@@ -59,7 +59,7 @@
   equal(AI(1,2,3).toString(), @"[1,2,3]", @"primitive array to string");
   equal(OKV({@"key1", @"value1"}).toString(), @"[object Object]", @"object to string");
   equal(AO(AI(1,2,3),N.F(4.5),OKV({@"five", @"5"})).toString(), @"[[1,2,3],4.5,[object Object]]", @"array to string");
-  equal(Date.newYMD_JS(2012, 7, 31).toString(), @"2012-08-30T15:00:00.000Z", @"Date to string");
+  equal(Date.newYMD_JS(2012, 7, 31).toString(), @"2012-08-31T00:00:00.000Z", @"Date to string");
 }
 
 @end
