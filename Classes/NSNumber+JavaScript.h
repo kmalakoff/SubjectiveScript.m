@@ -1,5 +1,5 @@
 //
-//  NSMutableDictionary+JavaScript.h
+//  NSNumber+JavaScript.h
 //  SubjectiveScript.m
 //
 //  Created by Kevin Malakoff on 7/29/12.
@@ -27,10 +27,10 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../Types/SSTypes.h"
+#import "SSTypes.h"
 
-@interface NSMutableDictionary (JavaScript)
+@interface NSNumber (JavaScript)
 
-- (O*(^)(id key))delete_;
+- (NSS*(^)())toString;
 
 @end

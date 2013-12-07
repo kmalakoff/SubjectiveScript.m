@@ -1,8 +1,8 @@
 //
-//  SSTypes.h
+//  SS+Functions.h
 //  SubjectiveScript.m
 //
-//  Created by Kevin Malakoff on 7/17/12.
+//  Created by Kevin Malakoff on 7/29/12.
 //  Copyright (c) 2012 Kevin Malakoff. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person
@@ -27,16 +27,12 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../SS.h"
+#import "SS.h"
 
-@interface SS (Types)
+@interface SS (Functions)
 
-+ (B(^)(id obj))isArray;
-+ (B(^)(id obj))isObject;
-+ (B(^)(id obj))isString;
-+ (B(^)(id obj))isNumber;
-+ (B(^)(id obj))isDate;
-+ (B(^)(id obj))isNull;
-+ (B(^)(id obj))isBlock;
++ (A*(^)(NSO* obj))functionNames;
++ (id(^)(id target, NSS* functionName))resolveFunction;
++ (id(^)(id block, NSA* arguments))callFunction;
 
 @end

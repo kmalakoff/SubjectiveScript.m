@@ -1,5 +1,5 @@
 //
-//  SS+Functions.h
+//  NSMutableDictionary+JavaScript.h
 //  SubjectiveScript.m
 //
 //  Created by Kevin Malakoff on 7/29/12.
@@ -27,12 +27,10 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../SS.h"
+#import "SSTypes.h"
 
-@interface SS (Functions)
+@interface NSMutableDictionary (JavaScript)
 
-+ (A*(^)(NSO* obj))functionNames;
-+ (id(^)(id target, NSS* functionName))resolveFunction;
-+ (id(^)(id block, NSA* arguments))callFunction;
+- (O*(^)(id key))delete_;
 
 @end

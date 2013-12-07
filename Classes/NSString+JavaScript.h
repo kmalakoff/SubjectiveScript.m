@@ -1,8 +1,8 @@
 //
-//  SS-System.h
+//  NSString+JavaScript.h
 //  SubjectiveScript.m
 //
-//  Created by Kevin Malakoff on 7/22/12.
+//  Created by Kevin Malakoff on 7/29/12.
 //  Copyright (c) 2012 Kevin Malakoff. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person
@@ -27,15 +27,17 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../SS.h"
+#import "SSTypes.h"
 
-@interface SS (System)
+@interface NSString (JavaScript)
 
-+ (NSS*)systemVersion;
-+ (B)macSystem;
-+ (B)iOSSystem;
+- (NSS*(^)())toString;
 
-+ (SSTaskId*(^)(SSTaskIdBlock block, I waitNS, BOOL background))addTask;
-+ (void(^)(SSTaskId* taskId))stopTask;
+- (NSA*(^)(NSS* separator))split;
+- (S*(^)(NSS* value))add;
+
+// function calling of form @"functionName".call(object, arg1, nil) and @"functionName".apply(object, arguments)
+- (id(^)(id target, id arg1, ... /* NIL_TERMINATED*/))call;
+- (id(^)(id target, NSA* arguments))apply;
 
 @end

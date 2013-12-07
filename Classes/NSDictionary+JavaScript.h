@@ -1,5 +1,5 @@
 //
-//  NSDate+JavaScript.h
+//  NSDictionary+JavaScript.h
 //  SubjectiveScript.m
 //
 //  Created by Kevin Malakoff on 7/29/12.
@@ -27,17 +27,12 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../Types/SSTypes.h"
+#import "SSTypes.h"
 
-@interface NSDate (JavaScript)
-
-// note the month is 0-indexed based like JavaScript
-+ (Date*(^)(I year, I month, I day))newYMD_JS;
+@interface NSDictionary (JavaScript)
 
 - (NSS*(^)())toString;
-- (NSS*(^)())toISOString;
 
-+ (NSDateFormatter*)ISO8601Writter;
-//+ (NSDateFormatter*)ISO8601Parser;
+- (B(^)(id key))hasOwnProperty;
 
 @end

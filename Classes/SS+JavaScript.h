@@ -1,8 +1,8 @@
 //
-//  NSMutableString+JavaScript.h
+//  SS+JavaScript.h
 //  SubjectiveScript.m
 //
-//  Created by Kevin Malakoff on 7/29/12.
+//  Created by Kevin Malakoff on 7/22/12.
 //  Copyright (c) 2012 Kevin Malakoff. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person
@@ -27,10 +27,26 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../Types/SSTypes.h"
+#import "SS.h"
+#import "SS+System.h"
 
-@interface NSMutableString (JavaScript)
+@interface SS (JavaScript)
 
-- (S*(^)(NSS* value))append;
+// JSON
++ (NSS*(^)(NSO* obj))stringify;
+
+// functions
++ (id(^)(id function, id arg1, ... /* NIL_TERMINATED*/))call;
++ (id(^)(id function, NSA* arguments))apply;
+
+// global functions
++ (N*(^)(NSS* string))parseInt;
++ (const NSS*(^)(id obj))typeof_;
++ (void(^)(NSO* message))alert;
+
+// timeouts
++ (SSTimeout*(^)(SSTaskIdBlock block, I waitNS))setTimeout;
++ (SSTimeout*(^)(SSTaskIdBlock block, I waitNS))setTimeoutBackground;
++ (void(^)(SSTimeout* timeout))clearTimeout;
 
 @end

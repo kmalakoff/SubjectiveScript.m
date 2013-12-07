@@ -27,7 +27,7 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../Types/NSMutableArray+SS.h"
+#import "NSMutableArray+SS.h"
 #import "TargetConditionals.h"
 
 // any number of arguments of type id or NSObject terminated with nil

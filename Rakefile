@@ -54,8 +54,8 @@ task :release do
   puts "* Running specs"
   sh "rake spec"
 
-  # puts "* Linting the podspec"
-  # sh "pod lib lint"
+  puts "* Linting the podspec"
+  sh "pod lib lint"
 
   # Then release
   sh "git commit #{podspec_path} CHANGELOG.md -m 'Release #{spec_version}'"

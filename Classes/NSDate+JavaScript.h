@@ -1,5 +1,5 @@
 //
-//  NSObject+JavaScript.h
+//  NSDate+JavaScript.h
 //  SubjectiveScript.m
 //
 //  Created by Kevin Malakoff on 7/29/12.
@@ -27,24 +27,17 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../Types/SSTypes.h"
+#import "SSTypes.h"
 
-@interface NSObject (JavaScript)
+@interface NSDate (JavaScript)
 
-- (B(^)(Class class))instanceof;
+// note the month is 0-indexed based like JavaScript
++ (Date*(^)(I year, I month, I day))newYMD_JS;
+
 - (NSS*(^)())toString;
+- (NSS*(^)())toISOString;
 
-// array
-- (UI)length;
-- (S*(^)(NSS* separator))join;
-- (A*(^)(id value))push;
-
-// object
-- (B(^)(id key))hasOwnProperty;
-- (B(^)(NSO* obj))in;
-
-// string
-- (NSS*(^)(NSS* string))add;
-- (S*(^)(NSS* string))append;
++ (NSDateFormatter*)ISO8601Writter;
+//+ (NSDateFormatter*)ISO8601Parser;
 
 @end

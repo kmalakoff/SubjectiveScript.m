@@ -1,5 +1,5 @@
 //
-//  SS+JavaScript.h
+//  NSString-Versioning.h
 //  SubjectiveScript.m
 //
 //  Created by Kevin Malakoff on 7/22/12.
@@ -27,26 +27,15 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../SS.h"
-#import "../Helpers/SS+System.h"
+#import "SSTypes.h"
 
-@interface SS (JavaScript)
+@interface NSString (Versioning)
 
-// JSON
-+ (NSS*(^)(NSO* obj))stringify;
-
-// functions
-+ (id(^)(id function, id arg1, ... /* NIL_TERMINATED*/))call;
-+ (id(^)(id function, NSA* arguments))apply;
-
-// global functions
-+ (N*(^)(NSS* string))parseInt;
-+ (const NSS*(^)(id obj))typeof_;
-+ (void(^)(NSO* message))alert;
-
-// timeouts
-+ (SSTimeout*(^)(SSTaskIdBlock block, I waitNS))setTimeout;
-+ (SSTimeout*(^)(SSTaskIdBlock block, I waitNS))setTimeoutBackground;
-+ (void(^)(SSTimeout* timeout))clearTimeout;
+// version should be in the form @"3.1.1" or @"4.0"
+- (B(^)(NSS* version))VersionEqualTo;
+- (B(^)(NSS* version))VersionGreaterThan;
+- (B(^)(NSS* version))VersionGreaterThanOrEqualTo;
+- (B(^)(NSS* version))VersionLessThan;
+- (B(^)(NSS* version))VersionLessThanOrEqualTo;
 
 @end

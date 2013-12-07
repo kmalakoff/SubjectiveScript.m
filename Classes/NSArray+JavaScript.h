@@ -1,8 +1,8 @@
 //
-//  NSString-Versioning.h
+//  NSArray+JavaScript.h
 //  SubjectiveScript.m
 //
-//  Created by Kevin Malakoff on 7/22/12.
+//  Created by Kevin Malakoff on 7/29/12.
 //  Copyright (c) 2012 Kevin Malakoff. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person
@@ -27,15 +27,20 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "../Types/SSTypes.h"
+#import "SSTypes.h"
 
-@interface NSString (Versioning)
+@interface NSArray (JavaScript)
 
-// version should be in the form @"3.1.1" or @"4.0"
-- (B(^)(NSS* version))VersionEqualTo;
-- (B(^)(NSS* version))VersionGreaterThan;
-- (B(^)(NSS* version))VersionGreaterThanOrEqualTo;
-- (B(^)(NSS* version))VersionLessThan;
-- (B(^)(NSS* version))VersionLessThanOrEqualTo;
+- (NSS*(^)())toString;
+- (UI)length;
+- (B(^)(id key))hasOwnProperty;
+
+// accessor Array functions
+- (A*(^)(NSA* other))concat;
+- (S*(^)(NSS* separator))join;
+- (NSA*(^)(I start, I count))slice; // TODO: test with negative parameters
+
+- (A*(^)())reverse;
+- (A*(^)(B shallow))flatten;
 
 @end
