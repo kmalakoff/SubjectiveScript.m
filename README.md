@@ -7,8 +7,7 @@ Subjective-Script makes Objective-C more scripty!
 
 **Note:** Subjective-Script requires ARC to be enabled on your Objective-C project.
 
-The Idea
-========
+### The Idea
 
 My language of preference is CoffeeScript and whenever I develop in Objective-C, I find myself often having to look up [NSSomething reallyLongFunctionName:YES withAVerboseParameterName:YES and:[NSSomethingElse whichAddsMoreBrackets]] and it isn't very enjoyable or speedy!
 
@@ -43,11 +42,10 @@ equal(_.pluck(people, @"name").join(@", "), @"moe, curly", @"stooges sorted by a
 
 Much better! And best of all, I can reuse my knowledge of JavaScript for function names so I can stop looking things up and get stuff done!
 
-The Syntax
-==========
+## The Syntax
 
-Types
------
+### Types
+
 While JavaScript allows flexibility in variable types, Objective-C requires explicit variable types. To try to keep it brief, I tried to condense types down to the shortest name possible:
 
 ```
@@ -77,8 +75,8 @@ N* value = N.B(true);
 equal(value.B, true, @"YES it is!")
 ```
 
-Using Aggregate Types
------
+### Using Aggregate Types
+
 I tried many different ways, but this seemed to be easy-to-read and brief (with key-value pair matching checked by the compiler):
 
 ```
