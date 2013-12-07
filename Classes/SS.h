@@ -27,7 +27,7 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "Types/SSTypes.h"
+#import "./Types/SSTypes.h"
 
 @interface SS : NSObject
 
