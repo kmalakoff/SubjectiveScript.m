@@ -34,12 +34,8 @@
 + (Date*(^)(I year, I month, I day))newYMD
 {
   return ^(I year, I month, I day) {
-    NSTimeZone *utcTimeZone = [NSTimeZone timeZoneWithName:@"UTC"];
-    NSCalendar *utcCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
-    utcCalendar.timeZone = utcTimeZone;
-
     NSDateComponents *components = NSDateComponents.new;
-    components.calendar = utcCalendar;
+    components.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     components.year = year;
     components.month = month;
     components.day = day;

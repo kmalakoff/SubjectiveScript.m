@@ -35,6 +35,7 @@
 + (Date*(^)(I year, I month, I day))newYMD_JS;
 
 - (NSS*(^)())toString;
+- (NSS*(^)())toISOString;
 
 + (NSDateFormatter*)ISO8601Writter;
 //+ (NSDateFormatter*)ISO8601Parser;

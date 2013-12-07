@@ -1,6 +1,8 @@
-````
-SubjectiveScript.m
-````
+# SubjectiveScript.m
+
+[![Version](http://cocoapod-badges.herokuapp.com/v/SubjectiveScript.m/badge.png)](http://cocoadocs.org/docsets/SubjectiveScript.m)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/SubjectiveScript.m/badge.png)](http://cocoadocs.org/docsets/SubjectiveScript.m)
+
 Subjective-Script makes Objective-C more scripty!
 
 **Note:** Subjective-Script requires ARC to be enabled on your Objective-C project.
@@ -302,8 +304,29 @@ people = _.sortBy(people, ^(Stooge* person){ return person.age; }); // no get(@"
 equal(_.pluck(people, @"name").join(@", "), @"moe, curly", @"stooges sorted by age");
 ```
 
-Please Contribute to SubjectiveScript.m
----------------
+## Usage
+
+To run the example project; clone the repo, and run `pod install` from the Project directory first.
+
+## Requirements
+
+## Installation
+
+SubjectiveScript.m is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:
+
+    pod "SubjectiveScript.m"
+
+## Author
+
+Kevin Malakoff, kmalakoff@gmail.com
+
+## License
+
+SubjectiveScript.m is available under the MIT license. See the LICENSE file for more info.
+
+
+## Please Contribute to SubjectiveScript.m
 
 Currently, this is still early days and there is a lot to add and test. Please help out!
 

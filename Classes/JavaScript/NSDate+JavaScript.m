@@ -35,12 +35,8 @@
 + (Date*(^)(I year, I month, I day))newYMD_JS
 {
   return ^(I year, I month, I day) {
-    NSTimeZone *utcTimeZone = [NSTimeZone timeZoneWithName:@"UTC"];
-    NSCalendar *utcCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
-    utcCalendar.timeZone = utcTimeZone;
-
     NSDateComponents *components = NSDateComponents.new;
-    components.calendar = utcCalendar;
+    components.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];;
     components.year = year;
     components.month = month+1;
     components.day = day;
@@ -50,6 +46,13 @@
 }
 
 - (NSS*(^)())toString
+{
+  return ^{
+    return @"TODO format like: Sat Dec 07 2013 13:55:27 GMT-0800 (PST)";
+  };
+}
+
+- (NSS*(^)())toISOString
 {
   return ^{
     return [[Date ISO8601Writter] stringFromDate:self];

@@ -29,6 +29,7 @@
 
 #import "SS+JavaScript.h"
 #import "NSObject+JavaScript.h"
+#import "NSDate+JavaScript.h"
 #import "NSNumber+SS.h"
 #import "NSMutableString+SS.h"
 #import "SS+Functions.h"
@@ -76,8 +77,8 @@ const NSS* SSJSTypeOfBoolean = @"boolean";
       BOOL writeSeparator = NO;
 
       for(NSO* item in array) {
-        if (writeSeparator)
-          [result appendString:@","];
+        if (writeSeparator) [result appendString:@","];
+
         [result appendString:self.stringify(item)];
         writeSeparator = YES;
       };
@@ -85,6 +86,7 @@ const NSS* SSJSTypeOfBoolean = @"boolean";
       [result appendString:@"]"];
       return result;
     }
+    if (SS.isDate(obj)) { return ((NSDate*) obj).toISOString(); }
   
     return obj.toString();
   };

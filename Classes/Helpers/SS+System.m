@@ -45,13 +45,9 @@
 + (NSS*)systemVersion { return [[UIDevice currentDevice] systemVersion]; }
 #elif TARGET_OS_MAC
 + (NSS*)systemVersion {
- SInt32 versionMajor = 0;
- SInt32 versionMinor = 0;
- SInt32 versionBugFix = 0;
- Gestalt( gestaltSystemVersionMajor, &versionMajor );
- Gestalt( gestaltSystemVersionMinor, &versionMinor );
- Gestalt( gestaltSystemVersionBugFix, &versionBugFix );
- return [NSString stringWithFormat:@"%d.%d.%d", versionMajor, versionMinor, versionBugFix];
+  NSDictionary *version = [NSDictionary dictionaryWithContentsOfFile:@"/System/Library/CoreServices/SystemVersion.plist"];
+  NSString *productVersion = [version objectForKey:@"ProductVersion"];
+  return productVersion;
 }
 #endif
 
