@@ -27,7 +27,7 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "SS.h"
+#import "../SS.h"
 
 @interface SS (Types)
 

@@ -27,8 +27,8 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "SS.h"
-#import "SS+System.h"
+#import "../SS.h"
+#import "../Helpers/SS+System.h"
 
 @interface SS (JavaScript)
 

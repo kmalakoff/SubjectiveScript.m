@@ -27,7 +27,7 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "SSTypes.h"
+#import "../Types/SSTypes.h"
 
 @interface NSMutableString (JavaScript)
 
